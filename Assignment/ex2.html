@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>USER FORM2</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script src='main.js'></script>
+    <style type="text/css">
+        body
+        {
+            background-color: rgb(192, 251, 152);
+        }
+        fieldset
+        {
+            font-family:cursive;
+            width: 650px;
+            margin-left: 350px;
+            margin-top: 45px;
+        }
+        
+        label
+         {
+        
+            display: inline-block;
+            width: 200px;
+            text-align: left;
+          }     
+        input[type="submit"]
+        {
+            margin-left:231px;     
+        }
+        
+    </style>
+</head>
+<body>
+    <fieldset  style="background-color:rgba(55, 226, 55, 0.973); border:1;">
+        
+        <legend align="center"><h2> User Form</h2></legend>
+        <li>
+            <label>FIRST NAME</label>
+            <input type="text" name="n1" required size="30">
+        </li>
+        <br>
+
+        <li>
+            <label>PASSWORD</label>
+            <input type="password" name="p1" required size="30">
+        </li>
+        <br>
+        
+        <li>
+            <label>GENDER</label>
+            <input type="radio" name="Gender">Male 
+            <input type="radio" name="Gender">Female 
+        </li>
+        <br>
+        
+        <li>
+            <label>ADDRESS</label>  
+            <textarea rows="5" cols="35" required style="vertical-align:top;"></textarea>
+        </li>
+        <br>
+        
+        <li>
+            <label>D.O.B</label>
+            <select style="width: 60px;">
+                <option>Jan</option>
+                <option>Feb</option>
+                <option>Mear</option>
+                <option>Apr</option>
+                <option>May</option>
+                <option>Jun</option>
+                <option>July</option>
+                <option>Aug</option>
+                <option>Sep</option>
+                <option>Oct</option>
+                <option>Nev</option>
+                <option>Dec</option>
+            </select>
+
+            <select style="width:60px;">
+                <option>1</option>
+                <option>2</option>
+                <option>3</option>
+                <option>4</option>
+                <option>5</option>
+                <option>6</option>
+                <option>7</option>
+                <option>8</option>
+                <option>9</option>
+                <option>10</option>
+                <option>11</option>
+                <option>12</option>
+            </select>
+           
+            <select style="width:60px;">
+                <option>1990</option>
+                <option>1995</option>
+                <option>2000</option>
+                <option>2005</option>
+                <option>2010</option>
+                <option>2015</option>
+                <option>2016</option>
+                <option>2017</option>
+                <option>2018</option>
+                <option>2019</option>
+                <option>2020</option>
+                <option>2021</option>
+                <option>2022</option>
+            </select>
+        </li>
+        <br>
+
+        <li>
+            <label>SELECT GAME</label>
+                <input type="checkbox" name="Hockey">Hockey
+                <input type="checkbox" name="football">Football
+                <input type="checkbox" name="cricket">Cricket
+                <input type="checkbox" name="volleyball">volleyball
+        </li>
+        <br>
+
+        <li>
+            <label>MARITAL STATUS</label>
+                <input type="radio" name="marital">married
+                <input type="radio" name="marital">Unmarried
+        </li>
+        <br>
+
+      
+        <input type="submit"  value="Submit" style="height:10%; width:15%;">
+        <input type="reset"  value="Reset" style="height:10%; width:15%;">
+        <br><br>
+        <center>
+        <input type="checkbox" name="cc" required> I accept this agrement
+        </center>
+         
+    </fieldset>
+
+</body>
+</html>

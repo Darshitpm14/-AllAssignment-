@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>User Form</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script src='main.js'></script>
+    <style type="text/css">
+        body
+        {
+           background-color:rgb(216, 193, 163);
+        }
+        th
+        {
+            text-align: left;
+            padding-left : 10px;
+        }   
+        tr
+        {
+            background-color:aqua;
+            
+        }
+        td
+        {
+            background-color:rgb(182, 248, 182);
+            padding: 0px 30px 5px 30px;
+        }
+        .add 
+        {
+            padding-top: 3px;
+            padding-bottom:1px;
+        }
+        .sel 
+        {
+            padding-top: 10px;
+        }
+        input[type="text"]
+        {
+            background:rgb(182, 248, 182);
+           
+        }
+        input[type="password"]
+        {
+            background:rgb(182, 248, 182);
+           
+        }
+        textarea
+        {
+            background:rgb(182, 248, 182);
+           
+        }
+        select
+        {
+            background:rgb(182, 248, 182);
+            padding-top:2px;
+            padding-bottom:1px;
+        }
+        .b1
+        {
+            background-color: aqua;
+        }
+        input[type="submit"]
+        {
+            background-color:rgb(182, 248, 182);
+        
+        }
+        input[type="button"]
+        {
+            background-color:rgb(182, 248, 182);
+        
+        }
+        input[type="reset"]
+        {
+            background-color:rgb(182, 248, 182);
+            
+           
+        }
+        input[type='file'] 
+        {
+            background-color: rgb(182, 248, 182)
+        }
+    </style>
+</head>
+<body>
+    
+        <form method="post">
+            <center>
+            <table border="1"  width="50%" style="margin-top:105px;"> 
+                <tr>
+                    <th colspan="2" style="color:red; background-color: #ebe375; text-align:center;font-size: 35px;">User Form
+                      
+                    </th>
+                </tr>
+                
+                <tr>
+                    <th>Enter Name</th>
+                    <td style="background-color: aqua; padding-top:1px; padding-bottom: 1px">
+                        <input type="text" name="n1" required size="45">
+                    </td>
+                </tr>
+                      
+                <tr>
+                    <th>Enter Password</th>
+                        
+                    <td style="background-color: aqua; padding-top:1px; padding-bottom: 1px;" >
+                        <input type="password" name="n2" required size="45">
+                    </td>
+                </tr>
+                
+                <tr>
+                <th> Enter address</th>
+                        <td style="background-color: aqua; width: 390px;" class="add">
+                        <textarea rows="5" cols="45" required></textarea>
+                    </td>
+                </tr>
+                
+                <tr>
+                    <th>Select Game</th>
+                    <td style="background:aqua;">   
+                        <input type="checkbox" name="Hockey">Hockey<br>
+                        <input type="checkbox" name="football">Football<br>
+                        <input type="checkbox" name="badminton">Badminton <br>
+                        <input type="checkbox" name="cricket">Cricket<br>
+                        <input type="checkbox" name="volleyball">volleyball
+                    </td>
+                </tr>
+
+                <tr>
+                    <th>Gender</th>
+                    <td style="background:aqua">
+                        <input type="radio" name="Gender">Male 
+                        <input type="radio" name="Gender">Female 
+                    </td>
+                </tr>
+                
+                <tr>
+                    <th>Select ur age</th>
+                    <td style="background-color: aqua;"class="sel">
+                        <select style="width: 385px;">
+                            <option>select</option>
+                            <option>18-28</option>
+                            <option>28-40</option>
+                            <option>40-60</option>
+                        </select>
+                    </td>
+                </tr>
+
+                <tr>
+                    <th style="text-align:center;" colspan="2">
+                        <input type="file" name="n3" value="Choosefile" required size="45"> 
+                    </th>
+                </tr>
+                
+                <tr>
+                    <td class="b1" style="text-align: center; padding-top: 3px;"colspan="2">
+                        <input type="button" name="b1" value="Click Me" style="height:30%; width:25%;">
+                        <input type="reset" name="b2" value="Reset" style="height:20%; width:25%;">
+                        <input type="submit" name="b3" value="Submit Form" style="height:20%; width:25%;">
+                    </td>
+                </tr>
+       
+            </table>
+            </center>
+        </form>
+</body>
+</html>

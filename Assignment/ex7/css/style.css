@@ -1,0 +1,30 @@
+body
+{ 
+    color:#bcd0f7;
+    background-color: #1A233A;
+}
+.card 
+{
+    background: #272E48;
+}
+.user_image
+{
+    text-align: center;
+}
+.heding
+{
+    
+    margin: 20px;
+    text-align: center;
+}
+.about
+{
+    margin-top: 50px;
+    text-align: center;
+}
+.form-control
+{
+    border: 1px solid #596280;
+    background: #1A233A;
+    color: #bcd0f7;
+}
